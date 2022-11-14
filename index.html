@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Belajar Tailwind Pertama</title>
     <style type="text/tailwindcss">
-        * { border: 1px solid black; } body { padding: 10px }
+        /* * { border: 1px solid black; } body { padding: 10px } */
     </style>
     <script>
         tailwind.config = {
@@ -119,7 +119,7 @@
 
     <!-- bg-blend-multiply, screen -->
     <!-- blur, blur-sm, blur-md, blur-xl, hover:bluer-none, birghtness-105 -->
-    <div class="mt-32 max-w-xl mb-96 mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-600 opacity-90 overflow-hidden border-8
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-600 opacity-90 overflow-hidden border-8
      brightness-125 flex
     " style=" background-image: url( './images/1.jpeg'); ">
         <!-- mix-blend-multiply, screen, overlay, darken, lighten, -->
@@ -127,6 +127,37 @@
         <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div>
     </div>
 
+
+    <hr class="my-20">
+    <div>
+        <button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-pink-300 ">Simpan</button>
+
+        <button class="
+        my-4 px-5 py-2 text-white bg-pink-600 rounded-full font-inter font-semibold block mx-auto hover:bg-pink-700 active:bg-pink-800
+        focus:ring focus:ring-pink-700
+        ">Cancel</button>
+    </div>
+    <hr class="my-20">
+
+    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group selection:bg-lime-700 selection:text-slate-900 font-serif">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+        <p class="text-slate-600 
+        group-hover:text-white
+        selection:bg-pink-400 
+        selection:text-black 
+        first-line:uppercase
+        first-line:tracking-widest
+        first-letter:text-7xl
+        first-letter:float-left
+        first-letter:mr-3
+        text-justify
+        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quaerat eveniet odio sit earum, nam nisi dolores totam ipsa et sequi dignissimos impedit rem maiores officiis sapiente aspernatur fugiat voluptatem.
+        </p>
+
+    </div>
+
+
+    <div class="mb-96"></div>
 
 
 
